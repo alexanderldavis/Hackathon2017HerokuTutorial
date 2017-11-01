@@ -1,4 +1,4 @@
-Instructions to Create a Heroku Web Application
+#Create a Heroku Web Application
 
 *These following instructions are designed for Mac*
 
