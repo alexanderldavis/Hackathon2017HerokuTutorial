@@ -15,7 +15,9 @@ http://lit-bastion-5032.herokuapp.com/ | https://git.heroku.com/lit-bastion-5032
 Git remote heroku added
 ```
 Copy paste this and save it in a folder, or write them down.
+
 7. Finally, in Terminal type `git add .`, `git commit -m "Initial Commit"`, `git push heroku master`. Once this completes, move to the next step.
+
 8. To scale your web app, run `heroku ps:scale web=1`. Now, visit in your browser the URL you wrote down earlier. To look extra cool, you can also run `heroku open` from your Terminal.
 
 If all has gone well so far, you should see a neat webpage with the word "SUCCESS!" on it.
