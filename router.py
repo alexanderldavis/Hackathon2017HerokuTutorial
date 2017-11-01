@@ -8,7 +8,7 @@ def index():
 
 @app.route("/exampleMath", methods=['GET'])
 def exampleMath():
-    numberOne = flask.request.form['numberOne']
-    numberTwo = flask.request.form['numberTwo']
+    numberOne = request.form['numberOne']
+    numberTwo = request.form['numberTwo']
     finalSum = int(numberOne) + int(numberTwo)
     return render_template('add.html', sum=finalSum)
