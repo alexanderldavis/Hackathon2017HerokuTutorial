@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route("/exampleMath")
+@app.route("/exampleMath", methods=["GET", "POST"])
 def exampleMath():
     numberOne = request.form['numberOne']
     numberTwo = request.form['numberTwo']
