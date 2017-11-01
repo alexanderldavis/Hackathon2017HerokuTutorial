@@ -1,6 +1,6 @@
 Instructions to Create a Heroku Web Application
 
-#These following instructions are designed for Mac#
+*These following instructions are designed for Mac*
 
 1. Open Terminal application. Install the Heroku CLI (Command Line Interface).This can be done by running `brew install heroku/brew/heroku`, or by downloading the package [here](https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli.pkg).
 2. Create a Heroku.com account with your email.
